@@ -114,4 +114,30 @@ ul {
 .text {
   font-size: 14px;
   padding: 5px;
+  margin-bottom: 64px;
+}
+
+.section-three {
+  display: flex;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 300px;
+}
+
+.text-block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.block {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.credit {
+  font-weight: bold;
 }
