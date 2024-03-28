@@ -3,7 +3,6 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: "Roboto";
 }
 
 .header {
@@ -35,4 +34,49 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #1f2937;
+  padding: 100px 225px;
+  gap: 50px;
+}
+
+.opener {
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+  flex: 1;
+  gap: 8px;
+}
+
+.awesome {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #b8b9bd;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #3882f6;
+  cursor: pointer;
+  padding: 8px 20px;
+}
+
+.image {
+  background-color: #bfbfc0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
